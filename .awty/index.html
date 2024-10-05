@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/d3@7"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+        #map { height: 500px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 p-5 text-center bg-light">
+            <h1>Are We There Yet?</h1>
+          </div>
+        </div>
+    <select id="countryDropdown">
+        <option value="">Select a country</option>
+        <!-- Options will be populated by D3 -->
+    </select>
+    <div id="flightData"></div>
+    <div id="map"></div>
+
+    <script src="app.js"></script> <!-- Link your app.js -->
+</body>
+</html>
+
+
+

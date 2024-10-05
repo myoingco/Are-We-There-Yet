@@ -1,0 +1,13 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: grey;
+    background: transparent; /* Removes any background */
+    border: none; /* Removes any border if present */
+}
+h1 {
+    text-align: center; /* Center-aligns the heading */
+    color: grey;
+    background: transparent !important; /* Removes any background */
+    border: none !important; /* Removes any border if present */
+}
